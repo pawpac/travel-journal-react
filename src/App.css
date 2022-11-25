@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgb(255, 198, 91), rgb(113, 255, 208));
+}
+
+.App {
+  width: 320px;
+  height: 480px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;;
+}
+
+.banner {
+  background-color: rgb(0, 165, 165);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.destination-container {
+  display: flex;
+  padding: 10px;
+}
+
+.image-container {
+  width: 30%;
+  min-width: 30%;
+}
+
+img {
+  width: 100%;
+}
+
+.description-container {
+  padding: 5px;
+}
+
+.navigation {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.destination-pin {
+  font-size: .6rem;
+  color: rgb(255, 56, 56);
+}
+
+.location {
+  font-size: .6rem;
+}
+
+.map-link {
+  display: flex;
+}
+
+a {
+  font-size: .5rem;
+  color: rgb(147, 146, 146);
+}
+
+.atraction {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: .6rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.fact {
+  font-size: .6rem;
+}
+
